@@ -39,6 +39,8 @@ jobs:
         script: |
           whoami
           ls -al
-          cd folder
+          cd public_html
           composer install --ignore-platform-reqs
           php artisan storage:link
+          php artisan key:generate
+          php artisan migrate
