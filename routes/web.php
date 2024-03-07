@@ -20,4 +20,6 @@ Route::get('/services', [FrontController::class, 'service'])->name('services.pag
 Route::get('/blog', [FrontController::class, 'blog'])->name('blog.page');
 Route::get('/contact', [FrontController::class, 'contact'])->name('contact.page');
 Route::get('/terms', [FrontController::class, 'terms'])->name('terms.page');
+
+
 Route::post('/message',[FrontController::class, 'contactMessage'])->name('message.page');
