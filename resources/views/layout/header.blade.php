@@ -54,7 +54,7 @@
                 <!-- Right Part -->
                 <div class="header_right_part d-flex align-items-center">
                     <div class="mainnav d-none d-xl-block">
-                        <ul class="main-menu">
+                        <ul class="main-menu" style="margin-right:100px">
                             <li class="menu-item "><a href="/">Home</a></li>
                             <li class="menu-item"><a href="/about">About Us</a></li>
                             <!-- <li class="menu-item menu-item-has-children"><a href="javascript:void()">Our Company</a>
